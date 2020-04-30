@@ -1,0 +1,371 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "mi primer juego de palabras",
+            "intents": [
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StartOverIntent",
+                    "samples": [
+                        "start over"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SHOW_LEADERBOARD_INTENT",
+                    "samples": [
+                        "muestra mi ranking",
+                        "tabla de posiciones",
+                        "muestra mi posición",
+                        "muestra la tabla de posciones"
+                    ]
+                },
+                {
+                    "name": "PLAY_GAME_INTENT",
+                    "slots": [
+                        {
+                            "name": "a",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "b",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "c",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "d",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "e",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "f",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "g",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "h",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "i",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "j",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "k",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "l",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "m",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "n",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "o",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "p",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "q",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "r",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "s",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "t",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "u",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "v",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "w",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "x",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "y",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "z",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "aa",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "ab",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "ac",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "ad",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "ae",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "af",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "ag",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "ah",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "ai",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "aj",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "ak",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "al",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "am",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "an",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "ao",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "ap",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "aq",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "ar",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "as",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "at",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "au",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "av",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "aw",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "ax",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "ay",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "az",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "ba",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "bb",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "bc",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        },
+                        {
+                            "name": "bd",
+                            "type": "LIST_OF_COMMON_WORDS"
+                        }
+                    ],
+                    "samples": [
+                        "{a}",
+                        "{a} {b}",
+                        "{a} {b} {c}",
+                        "{a} {b} {c} {d}",
+                        "{a} {b} {c} {d} {e}",
+                        "{a} {b} {c} {d} {e} {f}",
+                        "{a} {b} {c} {d} {e} {f} {g}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae} {af}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae} {af} {ag}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae} {af} {ag} {ah}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae} {af} {ag} {ah} {ai}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae} {af} {ag} {ah} {ai} {aj}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae} {af} {ag} {ah} {ai} {aj} {ak}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae} {af} {ag} {ah} {ai} {aj} {ak} {al}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae} {af} {ag} {ah} {ai} {aj} {ak} {al} {am}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae} {af} {ag} {ah} {ai} {aj} {ak} {al} {am} {an}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae} {af} {ag} {ah} {ai} {aj} {ak} {al} {am} {an} {ao}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae} {af} {ag} {ah} {ai} {aj} {ak} {al} {am} {an} {ao} {ap}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae} {af} {ag} {ah} {ai} {aj} {ak} {al} {am} {an} {ao} {ap} {aq}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae} {af} {ag} {ah} {ai} {aj} {ak} {al} {am} {an} {ao} {ap} {aq} {ar}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae} {af} {ag} {ah} {ai} {aj} {ak} {al} {am} {an} {ao} {ap} {aq} {ar} {as}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae} {af} {ag} {ah} {ai} {aj} {ak} {al} {am} {an} {ao} {ap} {aq} {ar} {as} {at}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae} {af} {ag} {ah} {ai} {aj} {ak} {al} {am} {an} {ao} {ap} {aq} {ar} {as} {at} {au}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae} {af} {ag} {ah} {ai} {aj} {ak} {al} {am} {an} {ao} {ap} {aq} {ar} {as} {at} {au} {av}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae} {af} {ag} {ah} {ai} {aj} {ak} {al} {am} {an} {ao} {ap} {aq} {ar} {as} {at} {au} {av} {aw}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae} {af} {ag} {ah} {ai} {aj} {ak} {al} {am} {an} {ao} {ap} {aq} {ar} {as} {at} {au} {av} {aw} {ax}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae} {af} {ag} {ah} {ai} {aj} {ak} {al} {am} {an} {ao} {ap} {aq} {ar} {as} {at} {au} {av} {aw} {ax} {ay}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae} {af} {ag} {ah} {ai} {aj} {ak} {al} {am} {an} {ao} {ap} {aq} {ar} {as} {at} {au} {av} {aw} {ax} {ay} {az}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae} {af} {ag} {ah} {ai} {aj} {ak} {al} {am} {an} {ao} {ap} {aq} {ar} {as} {at} {au} {av} {aw} {ax} {ay} {az} {ba}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae} {af} {ag} {ah} {ai} {aj} {ak} {al} {am} {an} {ao} {ap} {aq} {ar} {as} {at} {au} {av} {aw} {ax} {ay} {az} {ba} {bb}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae} {af} {ag} {ah} {ai} {aj} {ak} {al} {am} {an} {ao} {ap} {aq} {ar} {as} {at} {au} {av} {aw} {ax} {ay} {az} {ba} {bb} {bc}",
+                        "{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {aa} {ab} {ac} {ad} {ae} {af} {ag} {ah} {ai} {aj} {ak} {al} {am} {an} {ao} {ap} {aq} {ar} {as} {at} {au} {av} {aw} {ax} {ay} {az} {ba} {bb} {bc} {bd}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "LIST_OF_COMMON_WORDS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "amor"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "arbol"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "avión"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "abeja"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "abejorro"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
