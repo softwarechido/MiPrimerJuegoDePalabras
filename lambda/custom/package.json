@@ -9,11 +9,11 @@
   "author": "Amazon Alexa",
   "license": "Apache License",
   "dependencies": {
-    "@alexa-games/skills-gameon-sdk": "^0.1.5",
-    "ask-sdk": "2.519.0",
     "ask-sdk-core": "^2.7.0",
-    "ask-sdk-dynamodb-persistence-adapter": "^2.8.0",
     "ask-sdk-model": "^1.19.0",
-    "i18next": "^15.0.5"
+    "aws-sdk": "^2.326.0",
+    "i18next": "^15.0.5",
+    "ask-sdk-dynamodb-persistence-adapter": "^2.8.0",
+    "@alexa-games/skills-gameon-sdk": "^0.1.5"
   }
 }
