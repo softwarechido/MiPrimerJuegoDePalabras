@@ -61,8 +61,6 @@ const LaunchRequestHandler = {
     const attributes = this.getSessionAttributesManager;
     let player = await this.getPersistentAttributesManager;
 
-    console.log("Si llego aqui");
-
     // Bootstrap new users by registering them with GameOn and persisting to DynamoDb
     if (Object.keys(player).length === 0) {
       player = await GameOn.newPlayer();
