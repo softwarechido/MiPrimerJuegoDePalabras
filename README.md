@@ -20,4 +20,4 @@ leaderboardBackgroundImageUrl : La imágen de fondo para la tabla de posiciones
 
 matchId : el MatchID de GameON
 
-tornamentID : Este está tricky, lo sacas de la URL
+tournamentId : Este está tricky, lo sacas de la URL
